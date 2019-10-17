@@ -12,8 +12,7 @@ defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 
 // load wp
 define('WP_USE_THEMES', false);
-global $wpdb;
-require('wp-load.php');
+require('../../../wp-load.php');
 
 // grab wpdb Global Variable
 global $wpdb;
@@ -32,8 +31,20 @@ $wpdb->query(
 	    '%mainwp_%'
     )
 );
-   
-// $wpdb->show_errors();
-// $wpdb->print_error();
-// define( 'DIEONDBERROR', true );
-?>
+
+// This plugin will self-destruct Miss Moneypenny!
+// Recursivly delete the plugin folder
+function rrmdir($dir) {
+    if (is_dir($dir)) {
+      $objects = scandir($dir);
+      foreach ($objects as $object) {
+        if ($object != "." && $object != "..") {
+          if (filetype($dir."/".$object) == "dir") rrmdir($dir."/".$object); else unlink($dir."/".$object);
+        }
+      }
+      reset($objects);
+      rmdir($dir);
+    }
+ } 
+
+ rrmdir( plugin_dir_path( __FILE__ ) );
