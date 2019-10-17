@@ -1,4 +1,3 @@
-# Reset mainWP-Child Settings
 ### Reset mainWP Child plugin settings to default as if you just installed it.
 _Keep in mind this resets the entire plugin and you will have to reconnect.
 Feel free to __use at your own risk__ instead of the SQL statement talked about Below._
@@ -19,7 +18,9 @@ here often when the mainWP Dashboard looses connection in order to regain contro
 involved in the process a bit teadiouse just to re-install a plugin. So I took the SQL solution and created a plugin out of it.
 
 This plugin runs the same exact SQL query it's just in plugin form & cuts down the steps it takes to log into CPanel, find out the DB name & log in to phpmyadmin etc... 
-in order to reset the settings to default and gain access to your child plugin once again.
+in order to reset the settings to default and gain access to your child plugin once again. 
+
+Inspired by a conversation I had with Conor Treacy here: [mainWP User FB thread](https://www.facebook.com/groups/MainWPUsers/permalink/2461997537230239/)
 
 ### Now it's just
 
