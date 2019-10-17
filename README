@@ -9,14 +9,15 @@ Feel free to __use at your own risk__ instead of the SQL statement talked about 
 4. Delete the plugin after use by clicking the delete button on the plugin ( there is no Database entries )
 
 ##  About
+#### Inspired by a conversation I had with Conor Treacy here: [mainWP User FB thread](https://www.facebook.com/groups/MainWPUsers/permalink/2461997537230239/)
+
 I have used the SQL solution written at the bottom of this [mainWP User FB thread](https://www.facebook.com/groups/MainWPUsers/permalink/1139990406097632/)
 here often when the mainWP Dashboard looses connection in order to regain control of the mainWP Child Plugin. However, I find the steps
 involved in the process a bit teadiouse just to re-install a plugin. So I took the SQL solution and created a plugin out of it.
 
-This plugin runs the same exact SQL query it's just in plugin form & cuts down the steps it takes to log into CPanel, find out the DB name & log in to phpmyadmin etc... 
-in order to reset the settings to default and gain access to your child plugin once again. 
-
-Inspired by a conversation I had with Conor Treacy here: [mainWP User FB thread](https://www.facebook.com/groups/MainWPUsers/permalink/2461997537230239/)
+This plugin runs the same exact SQL query it's just in plugin form & cuts down the steps it takes to in order to reset the settings to default and gain access to your child plugin once again.
+There is no need to log into CPanel, find out the DB name & log in to phpmyadmin etc... 
+ 
 
 ### Now it's just
 
