@@ -21,7 +21,7 @@ global $wpdb;
 // grab wpdb table prefix being used in this installation
 $table_name = "{$wpdb->prefix}options";
 
-// SQL prepared statment = DELETE FROM `XX_options` where option_name like '%mainwp_%'
+// prepared statment == SQL DELETE FROM `prefix_options` WHERE option_name LIKE '%mainwp_%'
 $wpdb->query( 
 	$wpdb->prepare( 
 		"
