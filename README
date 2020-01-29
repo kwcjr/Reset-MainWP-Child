@@ -2,8 +2,8 @@
 _Keep in mind this resets the entire plugin and you will have to reconnect.
 Feel free to __use at your own risk__ instead of the SQL statement talked about Below._
 
-# [WARNING]
-## THIS IS A FRESH START! 
+# [WARNING] DO NOT USE ON MAINWP DASHBOARD INSTALLATION!
+## THIS IS A FRESH START!
 _Using this plugin will _ERASE ALL mainWP data from the child site._ This also includes all Code Snipit that have been ran on the child
 site using the [mainWP Code Snitpit plugin](https://mainwp.com/extension/code-snippets/ ) This snipits are stored withing the Child Plugin DB and will 
 need to be readded once the site has been reconnected. Along with any other Branding changes.
