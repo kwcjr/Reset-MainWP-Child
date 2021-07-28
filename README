@@ -36,5 +36,5 @@ There is no need to log into CPanel, find out the DB name & log in to phpmyadmin
 ![Results after plugin runs](https://klbs.host/commander/wp-content/uploads/2019/10/firefox_2019-10-17_14-07-42.png)
 
 ## Tested up to Versions
-* WordPress Version    : 5.2.4
-* mainWP-Child Version : 4.0.3
+* WordPress Version    : 5.8
+* mainWP-Child Version : 4.1.7
