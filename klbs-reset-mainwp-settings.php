@@ -5,7 +5,9 @@
  * Description: Reset mainWP-Child Plugin Settings.
  * Author: Kronoslabs.io
  * Author URI: https://www.Kronoslabs.io
- * Version: 1.0.0
+ * Version: 1.0.1
+ * Tested with: MainWP v4.3
+ * Tested with WordPress v6.1.1
  */
 
 defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
@@ -24,6 +26,18 @@ function klbs_reset_mainWP_child() {
             "
                 DELETE FROM $table_name
                 WHERE option_name
+                LIKE %s
+            ",
+            '%mainwp_%'
+        )
+    );
+
+    $table_name = "{$wpdb->prefix}postmeta";
+    $wpdb->query( 
+        $wpdb->prepare( 
+            "
+                DELETE FROM $table_name
+                WHERE meta_key
                 LIKE %s
             ",
             '%mainwp_%'
