@@ -1,12 +1,15 @@
-### Reset MainWP Child plugin settings to default as if you just installed it.
-_Keep in mind this resets the entire plugin and you will have to reconnect.
+# R̅e̅s̅e̅t̅ M̅a̅i̅n̅W̅P̅ C̅h̅i̅l̅d̅
+### A WordPress Plugin to reset the MainWP Child Plugin settings to default, as if you just installed it.
+
+_Keep in mind ***this resets the entire plugin*** and you will have to reconnect.
 Feel free to __use at your own risk__ instead of the SQL statement talked about Below._
 
 # [WARNING] DO NOT USE ON MAINWP DASHBOARD INSTALLATION!
+
 ## THIS IS A FRESH START!
-_Using this plugin will _ERASE ALL MainWP data from the child site._ This also includes all Code Snipits that have been ran on the child
-site using the [MainWP Code Snitpit plugin](https://mainwp.com/extension/code-snippets/ ) The snipits are stored withing the MainWP Child Plugin DB and will
-need to be re-added once the site has been reconnected. Along with any other Branding changes.
+Using this plugin will ***ERASE ALL MainWP data from the Child Site.*** This also includes all Code Snipits that have been ran on the child
+site using the [MainWP Code Snitpit plugin](https://mainwp.com/extension/code-snippets/ ). The snipits are stored withing the MainWP Child Plugin DB and will
+need to be re-added once the site has been reconnected. Along with any other MainWP White Label settings, or other plugin settings etc...
 
 ## Tested up to Versions
 * Tested with: MainWP-Child : v5.0.0
@@ -15,8 +18,8 @@ need to be re-added once the site has been reconnected. Along with any other Bra
 ## Usage
 1. Download the Plugin .Zip
 2. Install like any other Plugin
-3. Active the plugin. It will automatically run and deactivate itself.
-4. Delete the plugin after use by clicking the delete button on the plugin ( there is no Database entries )
+3. Activate the plugin. It will automatically run and deactivate itself.
+4. Delete the plugin after use by clicking the delete button on the plugin ( there are no Database entries created by this plugin )
 
 ##  About
 #### Inspired by a conversation I had with Conor Treacy here: [MainWP User FB thread](https://www.facebook.com/groups/MainWPUsers/permalink/2461997537230239/)
