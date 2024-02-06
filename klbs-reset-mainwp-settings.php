@@ -1,12 +1,14 @@
 <?php
 	/**
-	 * Plugin Name: Reset MainWP-Child
-	 * Plugin URI: https://bitbucket.org/kronoslabs/klbs-reset-mainwpchild-settings/src
-	 * Description: Reset MainWP-Child Plugin Settings.
+	 * Plugin Name: Reset MainWP Child
+	 * Plugin URI: https://github.com/kwcjr/Reset-MainWP-Child
+	 * Description: This plugin will delete all MainWP-Child settings from the WordPress Database upon activation and then deactivate itself. Please remove this plugin after use.
 	 * Author: Keith Crain
 	 * Author URI: https://github.com/kwcjr
-     * Tested with: MainWP-Child : v5.0.0
+     *
 	 * Tested with WordPress     : v6.4.3
+     * Tested with: MainWP Child Plugin : v5.0.0
+     *
      * Version: 1.0.2
 	 */
 

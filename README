@@ -4,9 +4,13 @@ Feel free to __use at your own risk__ instead of the SQL statement talked about 
 
 # [WARNING] DO NOT USE ON MAINWP DASHBOARD INSTALLATION!
 ## THIS IS A FRESH START!
-_Using this plugin will _ERASE ALL MainWP data from the child site._ This also includes all Code Snipit that have been ran on the child
-site using the [MainWP Code Snitpit plugin](https://mainwp.com/extension/code-snippets/ ) This snipits are stored withing the Child Plugin DB and will
-need to be readded once the site has been reconnected. Along with any other Branding changes.
+_Using this plugin will _ERASE ALL MainWP data from the child site._ This also includes all Code Snipits that have been ran on the child
+site using the [MainWP Code Snitpit plugin](https://mainwp.com/extension/code-snippets/ ) The snipits are stored withing the MainWP Child Plugin DB and will
+need to be re-added once the site has been reconnected. Along with any other Branding changes.
+
+## Tested up to Versions
+* Tested with: MainWP-Child : v5.0.0
+* Tested with WordPress     : v6.4.3
 
 ## Usage
 1. Download the Plugin .Zip
@@ -34,7 +38,3 @@ There is no need to log into CPanel, find out the DB name & log in to phpmyadmin
 
 ## Screen Shots
 ![Results after plugin runs](https://klbs.host/hot-links/mainwp/fAlkrinfaujexpOiwHgfg.png)
-
-## Tested up to Versions
-* Tested with: MainWP-Child : v5.0.0
-* Tested with WordPress     : v6.4.3
