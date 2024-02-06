@@ -1,6 +1,7 @@
 # R̅e̅s̅e̅t̅ M̅a̅i̅n̅W̅P̅ C̅h̅i̅l̅d̅
-### A WordPress Plugin to reset the MainWP Child Plugin settings to default, as if you just installed it.
 
+### A Master Reset Tool to reset the MainWP Child Plugin settings to default, as if you just installed it.
+ 
 _Keep in mind ***this resets the entire plugin*** and you will have to reconnect.
 Feel free to __use at your own risk__ instead of the SQL statement talked about Below._
 
