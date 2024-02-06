@@ -10,7 +10,7 @@ Feel free to __use at your own risk__ instead of the SQL statement talked about 
 ## THIS IS A FRESH START!
 Using this plugin will ***ERASE ALL MainWP data from the Child Site.*** This also includes all Code Snipits that have been ran on the child
 site using the [MainWP Code Snitpit plugin](https://mainwp.com/extension/code-snippets/ ). The snipits are stored withing the MainWP Child Plugin DB and will
-need to be re-added, along with any MainWP White Label settings that were pushed to the child site once the site has been reconnected.
+need to be re-added once the site has been reconnected, along with any MainWP White Label settings that were pushed to the child site.
 
 ## Tested up to Versions
 * Tested with: MainWP-Child : v5.0.0
