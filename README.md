@@ -5,6 +5,13 @@
 _Keep in mind ***this resets the entire plugin*** and you will have to reconnect.
 Feel free to __use at your own risk__ instead of the SQL statement talked about Below._
 
+## Download latest version
+[![Button Icon]][Link] 
+<!----------------------------------------------------------------------------->
+[Link]: https://github.com/kwcjr/Reset-MainWP-Child/archive/refs/heads/master.zip 'Download Reset MainWP Child .ZIP'
+<!---------------------------------[ Buttons ]--------------------------------->
+[Button Icon]: https://img.shields.io/badge/Download-70c973?style=for-the-badge&labelColor=black&logoColor=white&logo=DocuSign
+
 # [WARNING] DO NOT USE ON MAINWP DASHBOARD INSTALLATION!
 
 ## THIS IS A FRESH START!
